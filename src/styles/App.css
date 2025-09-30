@@ -27,7 +27,7 @@ html {
   height: 50px;
 }
 
-/* Mobile responsiveness */
+/* Logo Mobile responsiveness */
 @media (max-width: 1024px) {
   .logo-img {
     height: 50px;
@@ -1402,6 +1402,134 @@ html {
 .branch-office {
   width: 180px;
   height: 150px;
+}
+/* Prevent scroll when menu is open */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Header Base */
+.header {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.header.scrolled {
+  padding: 10px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #1F487C;
+}
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.logo span {
+  color: #0270BD;
+}
+
+/* Contact Button (desktop only) */
+.contact-btn {
+  background: #0270BD;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.contact-btn:hover {
+  background: #025b99;
+}
+
+/* Navigation */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.nav-links ul {
+  display: flex;
+  gap: 2rem;
+}
+.nav-links a {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.nav-links a:hover {
+  color: #0270BD;
+}
+
+/* Mobile Menu Button */
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #1F487C;
+}
+
+/* Mobile Styles */
+@media (max-width: 991px) {
+  .contact-btn {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 320px;
+    height: 100vh;
+    background: #fff;
+    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.15);
+    padding: 60px 25px;
+    transition: right 0.35s ease-in-out;
+    z-index: 999;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .nav-links ul li a {
+    font-size: 20px;
+    width: 100%;
+    display: block;
+  }
 }
 
 
