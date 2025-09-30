@@ -16,6 +16,37 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Logo Styling */
+.logo-img {
+  height: 60px;
+  width: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.header.scrolled .logo-img {
+  height: 50px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+  .logo-img {
+    height: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-img {
+    height: 40px;
+  }
+}
+
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -858,6 +889,7 @@ html {
   transform: translateY(20px);
   transition: all 0.8s ease-out;
 }
+
 .service-card.animate-fade-up.visible {
   opacity: 1;
   transform: translateY(0);
@@ -903,8 +935,15 @@ html {
 }
 
 @keyframes scroll-left {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); } /* seamless scroll */
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+
+  /* seamless scroll */
 }
 
 .industry-item {
@@ -1242,7 +1281,8 @@ html {
 .attachment-item:hover {
   background: rgba(255, 255, 255, 0.3);
 }
-.attatchment-header{
+
+.attatchment-header {
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
@@ -1367,20 +1407,21 @@ html {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+
   /* Base adjustments */
   .container {
     padding: 0 15px;
   }
-  
+
   .section {
     padding: 60px 0;
   }
-  
+
   .section-title {
     font-size: 2rem;
     margin-bottom: 40px;
   }
-  
+
   /* Header & Navigation */
   .mobile-menu-btn {
     display: block;
@@ -1723,14 +1764,19 @@ html {
 /* Animation speed adjustments for mobile */
 @media (max-width: 768px) {
   @keyframes scroll-left {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
   }
-  
+
   .industries-track {
     animation-duration: 20s;
   }
-  
+
   .clients-track {
     animation-duration: 25s;
   }
@@ -1741,19 +1787,19 @@ html {
   .service-card:hover {
     transform: none;
   }
-  
+
   .value-card:hover {
     transform: none;
   }
-  
+
   .client-logo:hover {
     transform: none;
   }
-  
+
   .team-member:hover {
     transform: none;
   }
-  
+
   /* Reduce animation intensity for better performance */
   .service-card,
   .value-card,
@@ -1763,7 +1809,8 @@ html {
 }
 
 /* High DPI mobile devices */
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
   .hero {
     background-attachment: scroll;
   }

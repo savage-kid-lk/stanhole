@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import logo from '../media/logo.png';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -18,7 +19,7 @@ const Header = () => {
       <div className="container">
         <nav className="nav">
           <a href="#home" className="logo">
-            STANHOLE <span>TRADING</span>
+            <img src={logo} alt="Stanhole Trading & Projects Logo" className="logo-img" />
           </a>
           
           <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
