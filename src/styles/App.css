@@ -10,6 +10,7 @@ body {
   line-height: 1.6;
   color: #333;
   overflow-x: hidden;
+  max-width: 100vw;
 }
 
 html {
@@ -48,7 +49,6 @@ html {
 
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -209,7 +209,6 @@ html {
   z-index: 0;
   pointer-events: none;
   animation: fadeSlide 36s linear infinite;
-  /* 3 slides x 12s */
 }
 
 .hero-slide-img {
@@ -229,17 +228,14 @@ html {
     opacity: 1;
   }
 
-  /* fade-in 1s / 36s total */
   30.555% {
     opacity: 1;
   }
 
-  /* visible 10s */
   33.333% {
     opacity: 0;
   }
 
-  /* fade-out 1s */
   100% {
     opacity: 0;
   }
@@ -1889,7 +1885,6 @@ body.menu-open {
   }
 }
 
-/* Animation speed adjustments for mobile */
 @media (max-width: 768px) {
   @keyframes scroll-left {
     0% {
@@ -1910,7 +1905,6 @@ body.menu-open {
   }
 }
 
-/* Touch device improvements */
 @media (hover: none) and (pointer: coarse) {
   .service-card:hover {
     transform: none;
@@ -1928,7 +1922,6 @@ body.menu-open {
     transform: none;
   }
 
-  /* Reduce animation intensity for better performance */
   .service-card,
   .value-card,
   .team-member {
@@ -1936,7 +1929,6 @@ body.menu-open {
   }
 }
 
-/* High DPI mobile devices */
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   .hero {
