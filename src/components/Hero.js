@@ -1,7 +1,7 @@
 import React from "react";
-import heroImage1 from "../media/IMG_5721.jpg";
-import heroImage2 from "../media/IMG_5730.jpg";
-import heroImage3 from "../media/IMG_5726.jpg";
+import heroImage1 from "../media/firstHeroSlide.jpg";
+import heroImage2 from "../media/secondHeroSlide.jpg";
+import heroImage3 from "../media/thirdHeroSlide.jpg";
 
 const slides = [
   {

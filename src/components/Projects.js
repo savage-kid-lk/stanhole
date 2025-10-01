@@ -152,7 +152,7 @@ const Projects = () => {
                   <strong>Term:</strong> {proj.term}
                 </p>
               )}
-              <div className="project-contact">
+              {/*<div className="project-contact">
                 <p>
                   <strong>Contact Person:</strong> {proj.contact.person}
                 </p>
@@ -165,7 +165,7 @@ const Projects = () => {
                     {proj.contact.email}
                   </a>
                 </p>
-              </div>
+              </div>*/}
             </div>
           ))}
         </div>
