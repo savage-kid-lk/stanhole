@@ -38,6 +38,7 @@ const Header = () => {
             <li><a href="#home" onClick={() => setIsMobileMenuOpen(false)}>Home</a></li>
             <li><a href="#about" onClick={() => setIsMobileMenuOpen(false)}>About</a></li>
             <li><a href="#services" onClick={() => setIsMobileMenuOpen(false)}>Services</a></li>
+            <li><a href="#projects" onClick={() => setIsMobileMenuOpen(false)}>Project</a></li>
             <li><a href="#clients" onClick={() => setIsMobileMenuOpen(false)}>Clients</a></li>
             <li><a href="#team" onClick={() => setIsMobileMenuOpen(false)}>Team</a></li>
             <li><a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</a></li>

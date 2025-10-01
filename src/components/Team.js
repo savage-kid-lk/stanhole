@@ -6,16 +6,6 @@ const Team = () => {
       name: "Stanley Maphuti Mashita",
       position: "Director & Chief Operations Officer",
       image: "stanley-mashita.jpg",
-      qualifications: [
-        "National Diploma: Electrical Engineering (VUT)",
-        "N4 Mechanical Engineering",
-        "Section 13 Trade certificate (MQA)-Electrician",
-        "Wireman's License (Installation Electrician Three Phase)",
-        "HT (Medium Voltage) certificate",
-        "SDP – First line managing skills programme",
-        "Occupational Health and Safety activities certificate",
-        "PLC Maintenance service 1,2&3"
-      ],
       experience: [
         "Exxaro Coal Mine – Electrician/Technician (3 years)",
         "Green Basin Gold - Electrician (8 months)",
@@ -27,12 +17,6 @@ const Team = () => {
       name: "John Tebe Mokoena",
       position: "Professional Engineer (Sub-contractor)",
       image: "john-mokoena.jpg",
-      qualifications: [
-        "National Senior Certificate",
-        "Bsc(Elec-Mech) Eng, University of Cape Town",
-        "Diploma Project Management: Damelin",
-        "ECSA registered"
-      ],
       experience: [
         "Professional Engineer since 2003",
         "Extensive project management experience",
@@ -75,14 +59,6 @@ const Team = () => {
                 <div className="member-position">{member.position}</div>
               </div>
               <div className="member-body">
-                <div className="qualification-list">
-                  <h4>Qualifications</h4>
-                  <ul>
-                    {member.qualifications.map((qual, idx) => (
-                      <li key={idx}>{qual}</li>
-                    ))}
-                  </ul>
-                </div>
                 <div className="experience-list">
                   <h4>Experience</h4>
                   <ul>

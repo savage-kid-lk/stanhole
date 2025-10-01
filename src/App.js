@@ -8,7 +8,8 @@ import Clients from './components/Clients';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
+import Projects from './components/Projects';
+import Socials from './components/Socials';
 function App() {
   return (
     <div className="App">
@@ -16,10 +17,12 @@ function App() {
       <Hero />
       <About />
       <Services />
+      <Projects />
       <Clients />
       <Team />
       <Contact />
       <Footer />
+      <Socials />
     </div>
   );
 }

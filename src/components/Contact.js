@@ -30,8 +30,8 @@ const Contact = () => {
                         <h3>Get In Touch</h3>
                         <div className="contact-details">
                             <p><strong>Director:</strong> Stanley Mashita</p>
-                            <p><strong>Contact No:</strong> 083 736 0290</p>
-                            <p><strong>Email:</strong> info@stanhole.co.za</p>
+                            <p><strong>Contact No:</strong> <a href='tel:+27837360290'>083 736 0290</a></p>
+                            <p><strong>Email:</strong> <a href="mailto:info@stanhole.co.za">mailto:info@stanhole.co.za</a></p>
                             <p><strong>REG NO:</strong> 2014/078224/07</p>
                             <p><strong>VAT:</strong> 4800292320</p>
                         </div>

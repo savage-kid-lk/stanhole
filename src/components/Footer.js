@@ -24,8 +24,8 @@ const Footer = () => {
           
           <div className="footer-section">
             <h4>Contact Information</h4>
-            <p>📞 083 736 0290</p>
-            <p>✉️ info@stanhole.co.za</p>
+            <p>📞 <a href='tel:+27837360290'>083 736 0290</a></p>
+            <p>✉️ <a href="mailto:info@stanhole.co.za">mailto:info@stanhole.co.za</a></p>
             <p>📍 Multiple locations across Gauteng and Limpopo</p>
           </div>
 
@@ -38,8 +38,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 Stanhole Trading and Projects (Pty) Ltd. All rights reserved.</p>
-          <p>Professional Electrical & Mechanical Engineering Services</p>
+          <p>&copy;<a href='https://singularitytech.co.za/'>SingularityTech</a>. All rights reserved.</p>
         </div>
       </div>
     </footer>

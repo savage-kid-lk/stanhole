@@ -6,7 +6,7 @@ import heroImage3 from "../media/IMG_5726.jpg";
 const slides = [
   {
     title: "STANHOLE TRADING & PROJECTS",
-    subtitle: "Leading Electrical & Mechanical Engineering Solutions",
+    subtitle: "Leading Electrical & Construction Works",
     info: "REG NO: 2014/078224/07 | VAT: 4800292320",
     image: heroImage1,
   },

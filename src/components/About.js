@@ -59,13 +59,13 @@ const About = () => {
                     <div className="about-text">
                         <h2>Professional Engineering Solutions</h2>
                         <p>
-                            Stanhole Trading and Projects (Pty) Ltd is a 100% black-owned company specializing in low, medium, and high voltage electrical systems. Our focus is on electrical cabling, stringing, earthing, and equipment installations.
+                            Stanhole Trading and Projects (Pty) Ltd is a 100% black-owned South African company specializing in civil engineering, road construction, and electrical & mechanical services. We deliver turnkey projects, including substations, workshops, classroom renovations, industrial plant installations, and roadworks.
                         </p>
                         <p>
-                            The principals are actively involved in each project from inception to completion, ensuring experience and expertise are channeled efficiently and cost-effectively.
+                            Our experienced team operates under ISO 9000 quality standards, ensuring safe, efficient, and cost-effective project execution. We also provide routine maintenance, plant servicing, and technical support for industrial, commercial, residential, and community projects.
                         </p>
                         <p>
-                            We employ experienced staff qualified to work with electricity and operate a quality system based on ISO 9000 standards. Routine maintenance of existing electrical installations is also provided.
+                            Committed to integrity, client satisfaction, and community empowerment, we build long-term relationships while contributing to sustainable growth and job creation.
                         </p>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ const About = () => {
                                 </div>
                                 <h3>Our Mission</h3>
                                 <p>
-                                    To be a preferred energy generation and maintenance service provider, delivering high-quality services to all sectors while leveraging the expertise of our professional team.
+                                    To be a leading provider of civil, electrical, and mechanical services in South Africa, recognized for quality, reliability, and community impact, while fostering sustainable growth and empowering local talent.
                                 </p>
                             </div>
                             <div className="vision-box">
@@ -89,7 +89,7 @@ const About = () => {
                                 </div>
                                 <h3>Our Vision</h3>
                                 <p>
-                                    To provide the highest level of customer satisfaction, exceed expectations through industry expertise, and maintain long-term relationships with clients, suppliers, and stakeholders.
+                                    To deliver efficient, safe, and cost-effective engineering solutions across civil, electrical, and mechanical projects, maintaining high-quality standards, strong client relationships, and a commitment to community development and empowerment.
                                 </p>
                             </div>
                         </div>

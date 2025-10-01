@@ -7,18 +7,27 @@ import mcaLogo from "../media/mca.png";
 import limpopoOncologyLogo from "../media/limpopo oncology.avif";
 import edzaLogo from "../media/edza.svg";
 import gautengGovLogo from "../media/gauteng.png";
+import blueHillsLogo from "../media/bluw hills.jpeg";
+import woodhillLogo from "../media/woodhill.webp";
+import aloeLogo from "../media/aloe.webp";
+import thornHillLogog from "../media/thornhill.png";
 
 // Import placeholder logo
 import placeholderLogo from "../media/placeholder.webp";
 
 const Clients = () => {
   const clients = [
-    { name: "AFRISAM", logo: afrisamLogo, website: "https://www.afrisam.co.za/", placeholder: "A" },
-    { name: "OLIFANTSFONTEIN DOLOMITE MINE", logo: olifantsfonteinLogo, website: "https://sallies.co.za/", placeholder: "ODM" },
-    { name: "MCA PROJECTS", logo: mcaLogo, website: "https://mca-groupe.com/en-us", placeholder: "MCA" },
-    { name: "LIMPOPO ONCOLOGY CLINIC", logo: limpopoOncologyLogo, website: "https://www.limpopooncologyclinic.com/", placeholder: "LOC" },
-    { name: "EDZA HEIGHTS ESTATES", logo: edzaLogo, website: "https://edza.co.za/", placeholder: "EHE" },
-    { name: "DEPARTMENT OF GAUTENG", logo: gautengGovLogo, website: "https://www.gauteng.gov.za/", placeholder: "GP-GOV" }
+    { name: "AFRISAM", logo: afrisamLogo, placeholder: "A" },
+    { name: "OLIFANTSFONTEIN DOLOMITE MINE", logo: olifantsfonteinLogo, placeholder: "ODM" },
+    { name: "MCA PROJECTS", logo: mcaLogo, placeholder: "MCA" },
+    { name: "LIMPOPO ONCOLOGY CLINIC", logo: limpopoOncologyLogo, placeholder: "LOC" },
+    { name: "EDZA HEIGHTS ESTATES", logo: edzaLogo, placeholder: "EHE" },
+    { name: "DEPARTMENT OF GAUTENG", logo: gautengGovLogo, placeholder: "GP-GOV" },
+    { name: "BLUE HILLS EQUESTRIAN ESTATE", logo: blueHillsLogo, placeholder: "GP-GOV" },
+    { name: "WOODHILL ESTATE", logo: woodhillLogo, placeholder: "LOGO"},
+    { name: "THE ALOE ESTATE", logo: aloeLogo, placeholder: "LOGO"},
+    { name: "THORNHILL ESTATE", logo: thornHillLogog, placeholder: "LOGO"}
+    
   ];
 
   // Duplicate the clients array for seamless looping
