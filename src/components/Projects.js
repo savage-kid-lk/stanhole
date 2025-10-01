@@ -147,12 +147,12 @@ const Projects = () => {
               <p>
                 <strong>Contract:</strong> {proj.contractName}
               </p>
-              {proj.term && (
+              {/*{proj.term && (
                 <p>
                   <strong>Term:</strong> {proj.term}
                 </p>
               )}
-              {/*<div className="project-contact">
+              <div className="project-contact">
                 <p>
                   <strong>Contact Person:</strong> {proj.contact.person}
                 </p>
