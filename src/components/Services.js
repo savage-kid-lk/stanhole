@@ -19,12 +19,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 // Import service images (keeps your existing imports)
-import electricalImage from "../media/WhatsApp Image 2025-09-30 at 17.05.00_16122964.jpg";
-import plcImage from "../media/IMG_5728.jpg";
+import electricalImage from "../media/firstHeroSlide.jpg";
+import plcImage from "../media/computer.jpg";
 import mechanicalImage from "../media/solar.jpg";
-import maintenanceImage from "../media/WhatsApp Image 2025-09-30 at 16.58.45_0eec0f86.jpg";
+import maintenanceImage from "../media/thirdHeroSlide.jpg";
 import projectImage from "../media/road work.jpg";
-import consultingImage from "../media/IMG_5721.jpg";
+import consultingImage from "../media/secondHeroSlide.jpg";
 import substationImage from "../media/WhatsApp Image 2025-09-30 at 16.58.43_288e6706.jpg";
 import electrificationImage from "../media/WhatsApp Image 2025-09-30 at 17.16.04_f6d0a942.jpg";
 import metersImage from "../media/WhatsApp Image 2025-09-30 at 16.58.46_773d27fc.jpg";
