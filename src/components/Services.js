@@ -28,6 +28,7 @@ import consultingImage from "../media/secondHeroSlide.jpg";
 import substationImage from "../media/WhatsApp Image 2025-09-30 at 16.58.43_288e6706.jpg";
 import electrificationImage from "../media/WhatsApp Image 2025-09-30 at 17.16.04_f6d0a942.jpg";
 import metersImage from "../media/WhatsApp Image 2025-09-30 at 16.58.46_773d27fc.jpg";
+import stationImage from "../media/substation.jpg";
 
 const Services = () => {
   // Consolidated categories (fewer cards — each aggregates everything from the profile)
@@ -104,7 +105,17 @@ const Services = () => {
         "Electrical workshops for schools, classroom renovations (electrical scope), institutional electrification and facilities maintenance for government & educational clients.",
       image: metersImage,
       animation: "bounce"
+    },
+    {
+      icon: faIndustry,
+      title: "Substation Services & Maintenance",
+      description:
+        "Specialised substation works including inspection, testing, repair, refurbishment and ongoing maintenance of transformers, switchgear, control panels and protection systems to ensure safe and reliable power distribution.",
+      image: stationImage,
+      animation: "bounce"
     }
+
+
   ];
 
   // Industries you serve (kept concise) - Updated icons to be more relevant
